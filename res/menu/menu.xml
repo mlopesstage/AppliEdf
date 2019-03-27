@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_principal_nouveauCompteur"
+        android:title="@string/nouveauReleveCompteur">
+        <menu>
+            <item
+                android:id="@+id/menu_secondaire_client"
+                android:title="@string/nouveauClient">
+
+            </item>
+            <item
+                android:id="@+id/menu_secondaire_existant"
+                android:title="@string/clientExistant">
+
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_principal_quitter"
+        android:title="@string/quitter">
+    </item>
+</menu>

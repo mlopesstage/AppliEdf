@@ -1,0 +1,40 @@
+<resources>
+    //Page principal
+    <string name="app_name">AppliEdf</string>
+    <string name="releveCompteur">RELEVE DE COMPTEUR :</string>
+    <string name="compteurHP">Saisir ici le compteur HP</string>
+    <string name="compteurHC">Saisir ici le compteur HC</string>
+    <string name="dateReleve">Saisir ici la date</string>
+    <string name="codeCli">Saisir ici le code client</string>
+    <string name="btnEnvoyer">ENVOYER</string>
+
+    //Bouton Radio
+    <string name="reparation">Réparation</string>
+    <string name="changement">Changement</string>
+    <string name="normal">Normal</string>
+
+    //Menu principal
+    <string name="nouveauReleveCompteur">Nouveau relevé compteur</string>
+    <string name="nouveauClient">Nouveau Client</string>
+    <string name="clientExistant">Client existant</string>
+    <string name="quitter">Quitter</string>
+
+    //Menu client existant
+    <string name="listeClientsExistants">Liste des clients existants</string>
+    <string name="retourReleveCompteur">Retour relevé compteur</string>
+    <string name="listViewCli">Liste de vue client</string>
+    <string name="textViewPren">Prénom</string>
+    <string name="textViewNom">Nom</string>
+    <string name="textViewAdr">Adresse</string>
+    <string name="textViewEmail">Email</string>
+    <string name="textViewTel">Tél</string>
+
+    //Menu nouveau client
+    <string name="nomClient">Nom</string>
+    <string name="prenomClient">Prénom</string>
+    <string name="adresseClient">Adresse</string>
+    <string name="emailClient">Email</string>
+    <string name="telClient">Tel</string>
+    <string name="btnEnregistrer">Enregistrer</string>
+    <string name="btnRetourMenu">Retour page accueil</string>
+</resources>

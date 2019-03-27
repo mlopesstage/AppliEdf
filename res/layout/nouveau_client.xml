@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/editNomClient"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_weight="0.26"
+            android:ems="10"
+            android:hint="@string/nomClient"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editPrenomClient"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/prenomClient"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/textAdresseClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/adresseClient" />
+
+        <!-- <EditText
+            android:id="@+id/textEmailClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/emailClient" /> -->
+
+        <EditText
+            android:id="@+id/textTelClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/telClient" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="310dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonEnregistrer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnEnregistrer" />
+
+        <Button
+            android:id="@+id/buttonRetour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnRetourMenu" />
+    </LinearLayout>
+</LinearLayout>

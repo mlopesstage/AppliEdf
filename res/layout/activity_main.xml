@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mlopesla_joliverie.appliedf.MainActivity">
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="512dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textReleveCompteur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/releveCompteur"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <EditText
+            android:id="@+id/compteurHP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/compteurHP"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <EditText
+            android:id="@+id/compteurHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/compteurHC"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <EditText
+            android:id="@+id/dateReleve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/dateReleve"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <EditText
+            android:id="@+id/codeCli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/codeCli"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="21dp" />
+
+        <Button
+            android:id="@+id/button_envoyer"
+            android:layout_width="122dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.08"
+            android:text="@string/btnEnvoyer"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="250dp" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioReparation"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reparation" />
+
+            <RadioButton
+                android:id="@+id/radioChangement"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/changement" />
+
+            <RadioButton
+                android:id="@+id/radioNormal"
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/normal" />
+
+        </RadioGroup>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
